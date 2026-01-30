@@ -1,0 +1,12 @@
+create table students(id int primary key,name varchar,email varchar,age int,course text,created_at timestamp)
+
+
+select * from students
+select * from students where age>20
+select name,email from students 
+select * from students where course='CS'
+
+update students set age=21 where name='ani'
+
+delete from student where id = 5
+delete from student where age>20
